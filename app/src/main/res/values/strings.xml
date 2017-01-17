@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">StatusSemaforo</string>
+    <string name="semaforo_a">Semaforo A</string>
+    <string name="posso_atravessar">Posso Atravessar?</string>
+</resources>
