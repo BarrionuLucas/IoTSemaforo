@@ -25,15 +25,12 @@ import com.google.gson.GsonBuilder;
 
 import java.util.Locale;
 
-import iot.trupidamari.statussemaforo.Services.SemaforoService;
 import iot.trupidamari.statussemaforo.models.Semaforo;
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
-
-import static android.speech.tts.TextToSpeech.LANG_AVAILABLE;
 
 
 public class MainActivity extends AppCompatActivity {
