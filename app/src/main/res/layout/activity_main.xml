@@ -22,14 +22,27 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
-        android:layout_below="@+id/textView"
+        android:layout_below="@+id/longitude"
+        android:contentDescription="Posso atravessar?"
         android:onClick="atravessar"/>
 
     <TextView
-        android:text="@string/semaforo_a"
+        android:text="@string/longitude"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:id="@+id/longitude"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:id="@+id/textView" />
+        android:layout_alignRight="@+id/button"
+        android:hint="Longitude"
+        android:layout_alignEnd="@+id/button" />
+
+    <TextView
+        android:text="@string/latitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/latitude"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:hint="Latitude"/>
 </RelativeLayout>
