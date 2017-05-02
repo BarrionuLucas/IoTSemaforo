@@ -10,9 +10,9 @@ import retrofit2.http.POST;
  */
 
 public interface SemaforoService {
-    public static final String BASE_URL="https://statussemaforo.herokuapp.com/api/";
+    public static final String BASE_URL="http://10.0.2.2:8090/";
 
-    @POST("status")
+    @POST("api/status")
     Call<Semaforo> getStatus(@Body Semaforo semaforo);
 
 }
