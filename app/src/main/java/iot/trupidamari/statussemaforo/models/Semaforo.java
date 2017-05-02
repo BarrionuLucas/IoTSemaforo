@@ -6,20 +6,31 @@ package iot.trupidamari.statussemaforo.models;
 
 public class Semaforo {
 
-    private int semaforoId;
+
+
+    private double lat;
+    private double longi;
     private boolean sucesso;
     private String mensagem;
     private int status;
 
-    public int getSemaforoId() {
-        return semaforoId;
+
+
+    public double getLat() {
+        return lat;
     }
 
-    public void setSemaforoId(int semaforoId) {
-        this.semaforoId = semaforoId;
+    public void setLat(double lat) {
+        this.lat = lat;
     }
 
+    public double getLongi() {
+        return longi;
+    }
 
+    public void setLongi(double longi) {
+        this.longi = longi;
+    }
     public boolean isSucesso() {
         return sucesso;
     }
